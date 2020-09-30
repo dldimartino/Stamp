@@ -79,6 +79,12 @@ input:hover {
 }
 
 .clickable:hover{
-    padding-left: 2px;
+    padding-top: 2px;
 }
 
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
