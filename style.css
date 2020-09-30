@@ -23,11 +23,9 @@ body {
 }
 #headerChoices {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-grow:2;
-    padding-left: 50px;
-    padding-right: 50px;
     flex-shrink: 1;
     flex-wrap: wrap;
 }
@@ -39,13 +37,20 @@ body {
     padding-left: 10px;
     padding-right: 10px;
 }
-.hamburgerButton {
+#hamburgerButton {
     background-color: #2a90cb;
     color: white;
 }
-.hamburgerItems {
+#hamburgerItems {
     display: flex;
     flex-direction: column;
+}
+.dropdownMenu {
+    overflow: hidden;
+    position: relative;
+}
+.dropdownMenu #hamburgerItem {
+    display: none;
 }
 .form {
     display: flex;
@@ -61,10 +66,10 @@ input {
     height: 30px;
 }
 input:focus {
-    background-color: #eef7fcc9;
+    background-color: #edf5f9;
 }
 input:hover {
-    background-color: #f5fafc;
+    background-color: #edf5f9;
 }
 #submitButton {
     height: 30px;
@@ -84,6 +89,7 @@ input:hover {
 .content {
     display: flex;
     justify-content: space-around;
+    padding-top: 200px;
 }
 .hero {
     display: flex;
