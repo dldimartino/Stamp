@@ -11,3 +11,9 @@ body {
 .classItem{
     margin: 200px;
 }
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
