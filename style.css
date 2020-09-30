@@ -7,11 +7,19 @@ body {
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 #headerChoices {
     display: flex;
     justify-content: space-between;
+}
+.hamburgerButton {
+    background-color: #2a90cb;
+    color: white;
+}
+.hamburgerItems {
+    display: flex;
+    flex-direction: column;
 }
 .form {
     display: flex;
@@ -38,7 +46,6 @@ input:hover {
 }
 #submitButton:hover {
     background-color: #2a90cb;
-
 }
 
 .formSection {

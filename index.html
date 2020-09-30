@@ -8,34 +8,44 @@
     <!-- <script src="index.js" defer></script> -->
 </head>
 <body background="background.png">
-    <div>
-        <div class="header">
-            <h1>Stamp</h1>
-            <div id="headerChoices">
-                <h2 class="clickable">About</h2>
-                <h2 class="clickable">Integrations</h2>
-                <h2 class="clickable">Pricing</h2>
-                <h2 class="clickable">Contacts</h2>
-            </div>
-            <h2 class="clickable">Hamburger</h2>
-        </div>
-
-        <div class="content">
-            <div class="hero">
-                <h1>Simple Way to Organize Your Inspirations</h1>
-                <p>I think what motivates people is not great hate, but great love for other people</p>
-            </div>
-            
-            <div class="formSection">
-                <h4>SIGN UP FOR FREE</h4>
-                <div class="inputsWithButton">
-                    <input type="text" id="name" placeholder="Name"/>
-                    <input type="text" id="email" placeholder="E-mail"/>
-                    <input type="password" id="password" placeholder="Password"/>
-                    <button id="submitButton" type="submit">Sign Up ></button>
+    <div class="all">
+        <div class="allExFooter">
+            <div class="header">
+                <h1>Stamp</h1>
+                <div id="headerChoices">
+                    <h2 class="clickable">About</h2>
+                    <h2 class="clickable">Integrations</h2>
+                    <h2 class="clickable">Pricing</h2>
+                    <h2 class="clickable">Contacts</h2>
                 </div>
-                <h5>By clicking "Sign up" I agree to our</h5>
-                <a href="#" class="clickable" >Terms of Service</a>
+                <div class="dropdownMenu, clickable">
+                    <button class="hamburgerButton">HamburgerButton</button>
+                        <div class="hamburgerItems">
+                            <a href="#">Profile</a>
+                            <a href="#">Account Settings</a>
+                            <a href="#">Your Inspirations</a>
+                            <a href="#">Explore Inspirations</a>
+                        </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="hero">
+                    <h1>Simple Way to Organize Your Inspirations</h1>
+                    <p>I think what motivates people is not great hate, but great love for other people</p>
+                </div>
+                
+                <div class="formSection">
+                    <h4>SIGN UP FOR FREE</h4>
+                    <div class="inputsWithButton">
+                        <input type="text" id="name" placeholder="Name"/>
+                        <input type="text" id="email" placeholder="E-mail"/>
+                        <input type="password" id="password" placeholder="Password"/>
+                        <button id="submitButton" type="submit">Sign Up ></button>
+                    </div>
+                    <h5>By clicking "Sign up" I agree to our</h5>
+                    <a href="#" class="clickable" >Terms of Service</a>
+                </div>
             </div>
         </div>
 
@@ -48,7 +58,6 @@
                 <h4 class="footerText, clickable"> PRIVACY POLICY</h4>
             </div>
         </div>
-
     </div>
 </body>
 </html>
