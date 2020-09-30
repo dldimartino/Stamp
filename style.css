@@ -17,3 +17,26 @@ body {
     flex-direction: row;
     background-color: red;
 }
+
+.form {
+    display: flex;
+    flex-direction: column
+
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+#heroTitle {
+    font-family: Avenir Next;
+}
+
+#heroSub {
+    font-family: Roboto-Regular ;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
