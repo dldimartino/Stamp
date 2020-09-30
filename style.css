@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     background-image: image("background.png");
 }
 
@@ -21,6 +22,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
+
 #headerChoices {
     display: flex;
     justify-content: space-around;
@@ -31,56 +33,68 @@ body {
     padding-left: 200px;
     padding-right: 200px;
 }
+
 #stamp {
     display: flex;
     flex-shrink: 0;
 }
+
 .headerChoice {
     padding-left: 10px;
     padding-right: 10px;
 }
+
 #hamburgerButton {
     background-color: #2a90cb;
     color: white;
 }
+
 #hamburgerItems {
     display: flex;
     flex-direction: column;
 }
+
 .dropdownMenu {
     overflow: hidden;
     position: relative;
 }
+
 .dropdownMenu #hamburgerItem {
     display: none;
 }
+
 .form {
     display: flex;
     flex-direction: column
 }
+
 .inputsWithButton{
     display: flex;
     flex-direction: column;
     border-color: white;
     border-width: 10px;
 }
+
 input {
     height: 30px;
     background-color: rgba(240, 240, 240, 0.9);
 }
+
 input:focus {
     background-color: #edf5f9;
 }
+
 input:hover {
     background-color: #edf5f9;
 }
+
 #submitButton {
     height: 30px;
     background-color: #56abdc;
     color: white;
     min-width: 300px;
-
 }
+
 #submitButton:hover {
     background-color: #2a90cb;
 }
@@ -91,11 +105,13 @@ input:hover {
     justify-content: center;
     align-items: center
 }
+
 .content {
     display: flex;
     justify-content: space-around;
     padding-top: 200px;
 }
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -118,6 +134,7 @@ input:hover {
 a:link {
     color: white;
 }
+
 a:visited {
     color: white;
 }
@@ -139,6 +156,7 @@ a:visited {
 
 .footer {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     justify-content: space-between;
     padding-bottom: 3rem;
