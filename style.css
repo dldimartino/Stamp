@@ -1,6 +1,6 @@
 body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     color: white
 }
 
@@ -72,6 +72,30 @@ input:hover {
     font-family: Roboto-Regular ;
 }
 
+.clickable:hover{
+    padding-top: 2px;
+}
+
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+
+#serviceLink {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+
+#serviceText {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: small;
+}
+
 .footer {
     display: flex;
     justify-content: flex-start;
@@ -86,15 +110,4 @@ input:hover {
 #footerItems {
     display: flex;
     justify-content: space-around;
-}
-
-.clickable:hover{
-    padding-top: 2px;
-}
-
-a:link {
-    color: white;
-}
-a:visited {
-    color: white;
 }
