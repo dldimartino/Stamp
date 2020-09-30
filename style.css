@@ -133,6 +133,8 @@ a:visited {
     font-family: 'Courier New', Courier, monospace;
     color: white;
     font-size: small;
+    padding-top: 10px;
+    font-size: x-small;
 }
 
 .footer {
