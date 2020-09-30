@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#icon {
+    padding: 20px;
+}
+
+.classItem{
+    margin: 200px;
+}
