@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="style.css"/>
     <!-- <script src="index.js" defer></script> -->
 </head>
-<body>
+<body background="background.png">
     <div>
-        <div class="navbar">
+        <div class="header">
             <h1>Stamp</h1>
-            <div>
+            <div id="headerChoices">
                 <h2>About</h2>
                 <h2>Integrations</h2>
                 <h2>Pricing</h2>
@@ -20,16 +20,35 @@
             <h2>Hamburger</h2>
         </div>
 
+        <div class="content">
+            <div class="hero">
+                <h1>Simple Way to Organize Your Inspirations</h1>
+                <p>I think what motivates people is not great hate, but great love for other people</p>
+            </div>
+            
+            <div class="formSection">
+                <h4>SIGN UP FOR FREE</h4>
+                <div class="inputsWithButton">
+                    <div class="inputs">
+                        <input type="text" id="name" placeholder="Name"/>
+                        <input type="text" id="email" placeholder="E-mail"/>
+                        <input type="password" id="password" placeholder="Password"/>
+                    </div>
+                    <button type="submit">Sign Up ></button>
+                </div>
+            </div>
+        </div>
 
         <div class="footer">
             <h4 id="copyright">&copy; 2016 Stamp. All Rights Reserved</h4>
-            <h4 class="footerText"> CONTACT</h4>
-            <h4 class="footerText"> HELP</h4>
-            <h4 class="footerText"> TERMS OF USE</h4>
-            <h4 class="footerText"> PRIVACY POLICY</h4>
+            <div id="footerItems">
+                <h4 class="footerText"> CONTACT</h4>
+                <h4 class="footerText"> HELP</h4>
+                <h4 class="footerText"> TERMS OF USE</h4>
+                <h4 class="footerText"> PRIVACY POLICY</h4>
+            </div>
         </div>
 
-        
     </div>
 </body>
 </html>
