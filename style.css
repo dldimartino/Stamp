@@ -9,7 +9,7 @@ body {
     background-repeat: no-repeat;
 }
 #stampLogo {
-    height: 30px;
+    height: 25px;
     width: 70px;
 }
 .allExFooter {
@@ -37,6 +37,7 @@ body {
     flex-wrap: wrap;
     padding-left: 200px;
     padding-right: 200px;
+    font-size: x-small;
 }
 
 #stamp {
@@ -114,6 +115,7 @@ input:hover {
 .content {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding-top: 200px;
 }
 
