@@ -5,7 +5,7 @@ The goal is to recreate an HTML page that was provided as PDF, PNG, .sketch file
 
 I plan to spend around 15-20 minutes on boxing and around 15-20 minutes on site planning before drawing it out.
 
-Below is the full challenge provided by Thesis
+Below is the full challenge:
 
 Please read the entire document before starting
 
